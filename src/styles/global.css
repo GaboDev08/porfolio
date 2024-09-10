@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #f8f8f8;
   font-family: sans-serif;
 }
 
@@ -13,6 +13,15 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+html.dark {
+  background-color: #000000;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
 
 h1 {
